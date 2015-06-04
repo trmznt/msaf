@@ -1,0 +1,52 @@
+{
+  'QEM-1':
+  {
+    'age'             : 14,
+    'gender'          : 'M',
+    'collection_date' : '2010/09/18',
+    'location'        : [ 'malaysia', 'sabah', 'kudat', 'kudat' ],
+    'passive_case'    : null,
+    'storage'         : 'blood tube',
+    'method'          : 'venous',
+    'microscopy_ident': 'Pm/Pv',
+    'pcr_ident'       : 'Pk/Pv',
+    'pcr_method'      : 'Rougemont_2004/Divis_2010',
+    'recurrent'       : 'N'
+    'comments'        : 'severe (convulsions x.3)'
+    'assays'       :
+    {
+      'QEM-1_2011-11-03_001.fsa' :
+      {
+        'panel'         : 'MS Panel 4-dup',
+        'nest'          : 'Y',
+        'size_standard' : 'LIZ600',
+        'markers'       :
+        {
+          'pv327'       :
+          {
+            'dye'       : 'R'
+            alleles     :
+            [
+              [ 317, 316.79, 1550, 16003 ],
+              [   0,      0,    0,     0 ]
+            ],
+          }
+        }
+      }
+    }
+  },
+}
+
+{
+    'QEM-1' :
+    {
+        'yearofbirth'   : 1987,
+        'gender'        : 'M',
+
+        'samples'       :
+        {
+            'QEM-1'     :
+            {
+                'collection_date':
+
+        etc

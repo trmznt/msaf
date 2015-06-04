@@ -1,0 +1,44 @@
+
+
+EDP Interface
+=============
+
+- provide sample editor
+- provide allele editor
+
+
+Report Generator
+================
+
+- use sampleset
+
+
+Assay Viewer
+============
+
+Alternative JS plotting library: flot, nvd3.org or dygraphs.com
+
+Current opinion is to use dygraphs.com =>
+pros:
+    - zoom
+    - annotation
+    - maintained by Google people
+
+nvd3.org
+pros:
+    - built on d3.js, so good entry point to study d3.js
+cons:
+    - no zoom yet (must have!)
+
+
+Solutions:
+    - use dygraphs.com for now, but may be change to nvd3.org/plain d3.js in the future
+
+
+Database Scheme
+===============
+
+Need to provide a concrete class for Panel, because we need to provide more information
+about the panel, such as primers used, nested state, binning adjustment, etc.
+
+

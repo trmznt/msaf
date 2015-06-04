@@ -1,0 +1,14 @@
+pyramid
+SQLAlchemy
+transaction
+pyramid_tm
+pyramid_debugtoolbar
+zope.sqlalchemy
+waitress
+python-dateutil
+pyparsing
+scipy
+numpy
+matplotlib
+MDP
+pandas

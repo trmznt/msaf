@@ -1,0 +1,57 @@
+method: heterozygosity
+batch:
+query:
+samples: 
+    K1:
+    - - KRPV3
+      - [ ROK-1, ROK-2, ROK-3 ]
+    - - [ 34, 12, 15, 25, 24, 35, 46 ]
+    K2:
+    - - KRPV3
+      - [ ROK-4, ROK-5, ROK-6 ]
+markers: [ MS1, MS10, MS5 ]
+abs_threshold: 50
+rel_threshold: 0.33
+rel_cutoff: 0
+sample_q_threshold: 0.50
+marker_q_threshold: 0.50
+sample_option: all
+differentiation:
+    spatial: 4
+    temporal: null
+    detection: null
+
+!OR!
+
+selector:
+    batch:
+    query:
+    samples:
+    markers:
+
+filters:
+    abs_threshold:
+    rel_threshold:
+    rel_cutoff:
+    sample_qual_threshold:
+    marker_qual_threshold:
+    sample_options:
+
+differentiations:
+    spatial:
+    temporal:
+    detection:
+
+
+!OR!
+
+selector:
+    samples:
+        __ALL__:
+            - { batch: IDPV, labels: [ ROK-1, ROK-2 ] }
+            - { batch: IDPV, query: 'indonesia[country]' }
+            - { ids: [ 12, 24, 35, 46, 56 ] }
+    markers: [ MS10, MS5, MS8 ]
+
+
+

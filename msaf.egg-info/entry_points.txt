@@ -1,0 +1,6 @@
+      [paste.app_factory]
+      main = msaf:main
+      [console_scripts]
+      msaf-setup = msaf.scripts.setup:main
+      msaf-csv2dict = msaf.scripts.csv2dict:main
+      

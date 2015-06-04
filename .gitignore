@@ -1,0 +1,14 @@
+*.pyc
+*.pyo
+*.db
+.DS_Store
+.coverage
+.*.swp
+local_settings.py
+/static/media
+.hgignore
+.hg/
+.hgtags
+__pycache__
+migrations
+

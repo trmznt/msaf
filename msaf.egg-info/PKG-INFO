@@ -1,0 +1,42 @@
+Metadata-Version: 1.1
+Name: msaf
+Version: 0.1
+Summary: msaf
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: msaf README
+        ==================
+        
+        msaf - MicroSatellite Analytics Framework
+        
+        Getting Started
+        ---------------
+        
+        - cd <directory containing this file>
+        
+        - install numpy & scipy
+          $venv/bin/pip install numpy
+          $venv/bin/pip install scipy
+        
+        - install the rest of dependency
+          $venv/bin/python setup.py develop
+        
+        - $venv/bin/msaf-setup development.ini
+        
+        - $venv/bin/pserve development.ini
+        
+        
+        
+        0.0
+        ---
+        
+        -  Initial version
+        
+Keywords: web wsgi bfg pylons pyramid
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Pylons
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI :: Application

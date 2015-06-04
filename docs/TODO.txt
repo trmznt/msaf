@@ -1,0 +1,12 @@
+
+
+* Add the following fields to the database schema:
+    - Channel
+        min_height
+    - AlleleSet / DataSet
+        public
+        remark
+
+* Move panel information to a new Panel class
+
+* Investigate the use of thread-specific (or dbsession specific) cache for EnumKey
